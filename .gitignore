@@ -1,0 +1,14 @@
+target
+project/target
+project/project
+project/project/target
+
+.bloop
+.metals
+.vscode
+.idea
+.bsp
+*.private.env.json
+.env
+.jvmopts
+*.iml
