@@ -1,4 +1,4 @@
-package main.streams
+package main.lecture3.streams
 
 import scala.io.{BufferedSource, Source}
 import scala.util.Random

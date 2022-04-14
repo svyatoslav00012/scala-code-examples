@@ -1,6 +1,6 @@
-package main.bankDbImmutable
+package main.lecture3.bankDbImmutable
 
-import main.bankDbImmutable.IOHelpers.tab
+import IOHelpers.tab
 
 case class DB(banks: List[Bank], transfers: List[Transfer], failedTransfers: List[(Transfer, String)]) {
   def tryMakeTransfer(from: String, to: String, amount: Int): DB = {

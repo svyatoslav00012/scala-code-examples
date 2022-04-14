@@ -1,4 +1,4 @@
-package main.bankDbImmutable
+package main.lecture3.bankDbImmutable
 
 import scala.annotation.tailrec
 import scala.io.StdIn.readLine

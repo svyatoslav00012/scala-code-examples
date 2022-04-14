@@ -1,4 +1,4 @@
-package main.bankDbImmutable
+package main.lecture3.bankDbImmutable
 
 /**
  * test cases:

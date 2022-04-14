@@ -1,6 +1,6 @@
-package main.bankDbImmutable
+package main.lecture3.bankDbImmutable
 
-import main.bankDbImmutable.IOHelpers.tab
+import IOHelpers.tab
 
 case class Bank(name: String, swiftCode: String, accounts: List[Account]) {
   //    def withdrawFromAccount(number: String, amount: Int): Either[String, Bank] =

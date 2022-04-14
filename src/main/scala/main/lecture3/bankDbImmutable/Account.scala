@@ -1,4 +1,4 @@
-package main.bankDbImmutable
+package main.lecture3.bankDbImmutable
 
 case class Account(name: String, number: String, amount: Int) {
   def withdraw(amountToWithdraw: Int): Either[String, Account] =

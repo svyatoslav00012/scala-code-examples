@@ -1,4 +1,4 @@
-package main.textAnalytics
+package main.lecture3.textAnalytics
 
 import scala.io.{BufferedSource, Source}
 

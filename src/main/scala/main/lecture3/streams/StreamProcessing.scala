@@ -1,4 +1,4 @@
-package main.streams
+package main.lecture3.streams
 
 import cats.effect._
 import fs2.io.file.{Files, Path}

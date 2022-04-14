@@ -8,10 +8,14 @@ lazy val root = (project in file("."))
   )
 
 libraryDependencies ++= Seq(
-  "org.typelevel" %% "cats-effect" % "3.3.8",
+  "org.typelevel" %% "cats-effect" % "3.3.11",
 
-  "co.fs2" %% "fs2-core" % "3.2.5",
-  "co.fs2" %% "fs2-io" % "3.2.5",
+  "co.fs2" %% "fs2-core" % "3.2.7",
+  "co.fs2" %% "fs2-io" % "3.2.7",
+
+  "io.circe" %% "circe-core" % "0.15.0-M1",
+  "io.circe" %% "circe-generic" % "0.15.0-M1",
+  "io.circe" %% "circe-parser" % "0.15.0-M1",
 
   "org.scalatest" %% "scalatest" % "3.2.11",
   "org.scalamock" %% "scalamock" % "5.2.0"
